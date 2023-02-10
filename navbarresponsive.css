@@ -1,0 +1,468 @@
+@media screen and (max-width:768px) {
+    .hero_img_div img {
+        width: fit-content;
+        height: 62vh;
+        padding-top: 1rem;
+    }
+
+    .menu_btn {
+        width: 3rem;
+        height: 2rem;
+    }
+
+    .right_left_item ul,
+    .right_right_item {
+        display: none;
+        gap: 0.2rem;
+        list-style: none;
+    }
+
+    .menu_btn_container {
+        display: flex;
+        border: 2px solid green;
+        width: 5rem;
+        height: 3.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_left {
+        display: none;
+    }
+
+    .about_secation_div {
+        padding: 0rem;
+        margin-top: 5rem;
+        gap: 2rem;
+    }
+
+    .about_left_second {
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        /* border: 2px solid red; */
+    }
+
+    .about_left_second img {
+        width: 120%;
+        overflow: hidden;
+        box-sizing: border-box;
+        height: 60vh;
+
+    }
+
+    .our_coaches_three_item {
+        flex-direction: column;
+        gap: 0.8rem;
+
+    }
+
+    .our_coaches_first1_item {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        /* display: inline-block; */
+        gap: 4rem;
+    }
+
+    .our_coaches_first2_item {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: end;
+        width: 100%;
+        gap: 4rem;
+        /* display: inline-block; */
+    }
+
+    .our_coaches_first3_item {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        /* display: inline-block; */
+        gap: 4rem;
+    }
+
+    .spacial {
+        display: flex;
+        align-self: center;
+    }
+
+    .our_coaches_mid {
+        font-size: 1.4rem;
+    }
+
+    .our_coaches_buttom h4 {
+        font-size: 1.4rem;
+    }
+
+    .our_coaches_top img {
+        width: 35vw;
+        height: 38vh;
+    }
+
+    .facilities_secation {
+        padding: 0rem 1rem;
+    }
+
+    .center_slider {
+        display: none;
+    }
+
+    .slider_div {
+        gap: 0.6rem;
+    }
+
+    .slider_img_div {
+        gap: 1.5;
+    }
+
+    .left_slider_img img {
+        width: 38vw;
+        height: 55vh;
+    }
+
+    .right_slider_img img {
+        width: 38vw;
+        height: 55vh;
+    }
+
+    .red_back_secation {
+        background-color: #a11216;
+        display: inline-block;
+        flex-direction: column;
+        height: fit-content;
+        /* width: 100%; */
+        position: relative;
+    }
+
+    .red_back_left_item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: 70vh;
+        width: 80vw;
+        position: absolute;
+        top: -13rem;
+        left: 2rem;
+
+
+    }
+
+    .red_back_right_item img {
+        /* position: absolute; */
+        top: 0rem;
+        display: block;
+        /* z-index: -5; */
+        width: 95vw;
+        object-fit: cover;
+        object-position: center;
+        padding: 0rem 5rem;
+
+    }
+
+    .red_back_top_text h1{
+        font-size: 3rem;
+    }
+
+    .red_back_mid_text h1{
+        font-size: 3rem;
+    }
+
+    /* .red_back_right_item2 img {
+        display: none;
+         align-items: flex-start;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        z-index: -2;
+        object-fit: cover;
+        object-position: cover;
+        align-items: center;
+
+    } */
+
+    .testimonials_three_item_div {
+        flex-direction: column;
+    }
+
+    .testimonials_first_item {
+        width: 80vw;
+        padding: 1.5rem 2rem;
+    }
+
+    .testimonials_second_item {
+        width: 80vw;
+        padding: 1.5rem 2rem;
+    }
+
+    .testimonials_three_item {
+        width: 80vw;
+        padding: 1.5rem 2rem;
+    }
+
+    .pricing_three_plan_div {
+        display: flex;
+        /* border: 2px solid red; */
+        gap: 3rem;
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }
+
+    .pricing_first_plan {
+        width: 80vw;
+    }
+
+    .pricing_second_plan {
+        width: 80vw;
+    }
+
+    .pricing_three_plan {
+        width: 80vw;
+    }
+
+    .price_spacial_text {
+        margin-top: 2rem;
+    }
+
+    .rate h2 {
+        font-size: 1.9rem;
+    }
+
+    .per h2 {
+        font-size: 1.1rem;
+
+    }
+
+    .send_massage {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .send_left input {
+        display: flex;
+        border-radius: 0.9rem;
+        padding: 1.8rem 8rem 2rem 8rem;
+        font-size: 1.5rem;
+
+    }
+
+    .send_right {
+        border-radius: 0.9rem;
+        padding: 1.4rem 2.2rem;
+    }
+
+    .buttom_last_secation_numbers_and_map {
+        display: flex;
+        margin-top: 3rem;
+        flex-direction: column;
+        padding-bottom: 2rem;
+        align-items: center;
+    }
+
+    .last_left_three_text_item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .last_left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .contact_us_headding h2 {
+        font-size: 1.4rem;
+
+    }
+
+    .first_contact {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+    }
+
+    .quick_links_headding h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 1.1rem;
+
+
+    }
+
+    .quick_links ul {
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: row;
+        gap: 2.5rem;
+
+    }
+
+    .further_information_headding h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 1.1rem;
+
+
+    }
+
+    .further_information ul {
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+
+    }
+
+    .contact_us {
+        gap: 0.5rem;
+    }
+
+    .contact_us_headding h2 {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 1.1rem;
+    }
+
+    .right_mobile_number h3 {
+        font-size: 1.3rem;
+    }
+
+    .right_mobile_email h3 {
+        font-size: 1.3rem;
+    }
+
+    .google_headding h2 {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 3rem;
+
+    }
+
+    .google_map img {
+        height: 40vh;
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .hero_img_div img {
+        width: fit-content;
+        height: 40vh;
+    }
+
+    .about_followers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our_coaches_secation {
+        padding: 0.1rem;
+    }
+
+    .our_coaches_three_item {
+        flex-direction: column;
+        gap: 0.8rem;
+
+    }
+
+    .our_coaches_first1_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 0.7rem;
+
+    }
+
+    .our_coaches_first2_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 0.7rem;
+
+    }
+
+    .our_coaches_first3_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 0.7rem;
+    }
+
+    .spacial {
+        display: flex;
+        align-self: center;
+    }
+
+    .our_coaches_mid {
+        font-size: 1.5rem;
+    }
+
+    .our_coaches_buttom h4 {
+        font-size: 1.5rem;
+    }
+
+    .our_coaches_top img {
+        width: 97vw;
+        height: 60vh;
+
+    }
+
+    .facilities_secation {
+        padding: 0rem 1rem;
+    }
+
+    .center_slider {
+        display: block;
+    }
+
+    .slider_div {
+        gap: 1.2rem;
+    }
+
+
+    .left_slider {
+        display: none;
+    }
+
+    .right_slider {
+        display: none;
+    }
+
+
+    .center_slider_img img {
+        width: 70vw;
+        height: 75vh;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .hero_img_div img {
+        width: fit-content;
+        height: 46vh;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .hero_img_div img {
+        width: fit-content;
+        height: 46vh;
+    }
+}
